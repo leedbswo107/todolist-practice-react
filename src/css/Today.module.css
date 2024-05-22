@@ -1,0 +1,9 @@
+.today {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  gap: 2rem;
+  height: 100%;
+}

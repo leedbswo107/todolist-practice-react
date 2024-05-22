@@ -1,0 +1,30 @@
+.home {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.initial {
+  display: flex;
+  padding: 10rem;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  border-radius: 3rem;
+}
+.initial h3 {
+  font-size: 2rem;
+}
+.initial p {
+  text-align: center;
+  padding: 3rem 0;
+}
+.initial .goToTasks {
+  background-color: #76de37;
+  outline: none;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

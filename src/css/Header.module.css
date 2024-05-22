@@ -1,0 +1,81 @@
+.hd {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: calc(100vh - 4rem);
+  padding: 2rem;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f4f4f4;
+  border-radius: 3rem;
+  position: relative;
+}
+.hd h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.searchArea {
+  padding: 0.5rem;
+  background-color: #ebebeb;
+  border-radius: 2rem;
+  display: flex;
+  width: 100%;
+}
+.searchArea .searchInput,
+.searchArea .submit {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.ham {
+  position: absolute;
+  right: 1.5rem;
+  top: 2rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.gnb {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  gap: 2rem;
+}
+.gnb .sub {
+  font-weight: bold;
+}
+.gnb .tasks,
+.gnb .lists {
+  padding: 0.5rem 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 13px;
+}
+.gnb .lists {
+  margin-bottom: 1rem;
+}
+.lists .subject {
+  background-color: #efefef;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+.gnb > li:nth-of-type(2) a {
+  padding-left: 1rem;
+  font-size: 13px;
+}
+.gnb > li:nth-of-type(2) a i {
+  padding-right: 0.5rem;
+}
+.gnb .tasks i {
+  padding-right: 0.5rem;
+}
+.hd > a {
+  font-size: 1.1rem;
+}
+.hd > a i {
+  padding-right: 1rem;
+}
